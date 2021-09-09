@@ -1,61 +1,65 @@
 <!DOCTYPE html>
-<html lang= "es">
-<head>
-        <meta charset="UTF-8">
-        <meta http-equiv= "X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mi primera pagina web</title>
+<html lang="es">
+<head> 
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+   <title>Mi primera página web</title>
+   <style>
+       body {
+           background-color: pink;
+           color: antiquewhite;
+       }
+
+       img {
+           width: 200px;
+       }
+       header {
+           display:flex
+       }
+       nav{
+
+
+        width: 100%;
+       }
+
+       ul{
+
+        list-style: none;
+
+        display: flex;
+        flex-direction: row;
+
+        float:right;
+       }
+
+       a{
+           color: darkmagenta;
+           text-decoration: none;
+           margin-left: 10px;
+       }
+   </style>
 </head>
-
-<body style="background-color: beige;color: bisque;"
-    <!-- La etiqueta header será la cabecera visual de nuestro sitio web. -->
+<body>
     <header>
-        <!-- La etiqueta img tiene como funcionalidad representar imagenes. -->
-        <center>       
-             <img
-             src="https://fotos.perfil.com/2019/12/20/trim/950/534/tierra-planeta-831584.jpg" 
-             alt="Logo de ecología"
-             style="width: 200px;">
-        </center>
-        <nav>
-            <!-- UL significa Unordered List (lista desordenada) -->
-            <ul>
-                <!-- LI significa List Item (elemento de la lista) -->
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="acerca.html">Sobre Programación</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+        <img
+        src="https://fotos.perfil.com/2019/12/20/trim/950/534/tierra-planeta-831584.jpg"
+        alt="Logo de ecología"
+     <nav>
+         <ul>
+             <li>
+                 <a href="index.html">Inicio</a>
+             </li>
+             <li>
+                <a href="acerca.html">Acerca de la ecología</a>  
+            </li>
+            <li>
+               <a href="contacto.html">Contacto</a>
+            </li>
+        </ul> 
+    </nav>
+</header>
 
-<!-- La etiqueta main, será el contenedor del contenido principal del sitio -->
-<main>
-    <section>
-        <article>
-            <h1>Esta será una página acerca de la programación</h1>
-            <p>
-                Este es el primer párrafo en esta página. Mi nombre es Paulina.
-            </p> 
-            <p>
-                El primer lenguaje de programación fue creado en 1843 por Ada Lovelace.
-            </p>
-        </article>
-    </section>
-
-</main>
-    <!-- La etiqueta footer sera el pie de página. -->
-    <footer>
-        Creado por Paulina Presuel
-    </footer>
-</body>
-</html>
-<!-- La etiqueta main sera el contenedor del contenido principal del sitio -->
 <main>
     <section>
         <article>
@@ -73,4 +77,3 @@
         </article>
     </section>
 </main>
-
