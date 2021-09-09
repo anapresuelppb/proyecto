@@ -1,0 +1,32 @@
+body {
+    background-color: pink;
+    color: antiquewhite;
+}
+
+img {
+    width: 200px;
+}
+header {
+    display:flex
+}
+nav{
+
+
+ width: 100%;
+}
+
+ul{
+
+ list-style: none;
+
+ display: flex;
+ flex-direction: row;
+
+ float:right;
+}
+
+a{
+    color: darkmagenta;
+    text-decoration: none;
+    margin-left: 10px;
+}
