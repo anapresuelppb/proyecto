@@ -1,6 +1,7 @@
 body {
     background-color: pink;
     color: antiquewhite;
+    font-family: Open Sans, Arial, Helvetica, Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -29,4 +30,8 @@ a{
     color: darkmagenta;
     text-decoration: none;
     margin-left: 10px;
+}
+@font-face {
+    font-family: Open Sans;
+    src: url('../fonts/Open Sans/21798841561.ttf');
 }
