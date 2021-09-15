@@ -32,11 +32,12 @@ ul{
 }
 
 a{
-    color: darkmagenta;
+    color: whitesmoke;
+    font-family: golden_hopes, Arial, Helvetica, sans-serif;
     text-decoration: none;
     margin-left: 10px;
 }
 @font-face {
-    font-family: Open Sans;
-    src: url('../fonts/Open Sans/21798841561.ttf');
+    font-family: golden_hopes;
+    src: url('../fonts/golden_hopes/GoldenHopes_PERSONAL_USE_ONLY.otf;
 }
