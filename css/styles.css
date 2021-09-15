@@ -4,9 +4,14 @@ body {
     font-family: Open Sans, Arial, Helvetica, Arial, Helvetica, sans-serif;
 }
 
-img {
+img#logo { 
     width: 200px;
 }
+
+.t-50 {
+    width: 50%
+}
+
 header {
     display:flex
 }
