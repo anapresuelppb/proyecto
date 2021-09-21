@@ -45,8 +45,8 @@ a{
 
 article {
     text-align: center;
-    margin: 32px auto;
-    width: 80%;
+    /* margin: 32px auto; */
+    /* width: 80%; */
 }
 
 .column img {
@@ -70,4 +70,41 @@ article {
 
 footer {
     text-align: center;
+}
+
+div#slider {
+    background-image: url('../images/ecoeco.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 160px);
+    animation: changegojira 5s infinite;
+    animation-delay: 0.3s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes changegojira {
+    0% {
+        background-image: url('../images/ecologia.jpeg');
+    }
+
+    25% {
+        background-image: url('../images/ecoo2.jpeg');
+    }
+
+    50% {
+        background-image: url('../images/productos-ecologicas.jpeg');
+
+    }
+
+    75% {
+        background-image: url('../images/productos-ecologicos-alimentacion.jpeg');
+
+    }
+
+    100% {
+        background-image: url('../images/eco24.jpeg');
+
+    }
 }
