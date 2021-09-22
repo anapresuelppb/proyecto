@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+   <title>Mi primera página web</title>
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- La etiqueta header será la cabecera visual de nuestro sitio web. -->
+    <header>
+        <!-- La etiqueta img tiene como funcionalidad representar imágenes. -->
+        <img
+        src="https://fotos.perfil.com/2019/12/20/trim/950/534/tierra-planeta-831584.jpg" 
+        alt="Logo de ecología"
+        id= "logo">
+        <nav>
+            <!-- UL significa Unordered List (lista desordenada) -->
+            <ul>
+                <!-- LI significa List Item (elemento de la lista) -->
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="acerca.html">Acerca de la ecología</a>  
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul> 
+        </nav>
+    </header>
+
+    <!-- La etiqueta main, sera el contenedor del contenido principal del sitio -->
+    <main>
+        <section>
+            <form>
+                <h2> Formulario de contacto</h2>
+                <div class="form column"
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" type="text" placeholder="nombre completo">
+                </div>
+                <div class="form column"
+                    <label for="correo">correo electrónico</label>
+                    <input id="correo" type="email" placeholder="correo@dominio.com">
+                </div>
+                <div class="form column">
+                    <label for="telefono">telefono</label>
+                    <input id="telefono" type="text" placeholder="10 dígitos">
+                </div>
+                <div class="form column">
+                    <label for="mensaje">mensaje</label>
+                    <textarea id="mensaje" cols="30" rows="10"></textarea>
+                </div>
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- La etiqueta footer sera el pie de pagina. -->
+    <footer>
+        Creado por Paulina Presuel
+    </footer>
+</body>
+</html>
